@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NinjaVsDinosaurio</title>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+   	<div id="portada">
+			<div id="inicio">historia<br>> 
+			</div>
+			<button id="bti" type="button" class="btn btn-default">Comienza la Batalla</button>
+    </div> 
+     <div id="consola">
+      <div id="peleadores">
+        <div id="ninja">
+           <img src="img/NINJA.png" height="800px">
+         </div>
+        <div id="dinosaurio">
+          <img src="img/DINOSAURIO.png" height="800px">
+        </div>
+      </div>
+      <div id="rama">
+        <img src="img/RAMAS.png" width="100%">
+      </div>
+
+ 			<div id="info" class="container-fluid">
+          <div class="row">
+
+            <div class="col-xs-6 col-md-5">
+              <p id="p1" class="np"></p>
+              <form id="frm1" action="form_action.asp">
+                <input name="Nname" type="text" class="form-control" value="Nombre"><br>
+              </form> 
+              <button id="ni" type="button" class="btn btn-danger" onclick="ANinja()">Ninja</button>
+            </div>
+            
+            <div class="col-xs-2 col-md-2">
+                <button type="button" class="btn btn-default1">Play</button>
+            </div>
+
+            <div class="col-xs-6 col-md-5">
+              <p id="p2" class="np"></p>
+              <form id="frm1" action="form_action.asp">
+                <input name="Nname" type="text" class="form-control" value="Nombre"><br>
+              </form> 
+              <button id="di" type="button" class="btn btn-success" onclick="ADinosaurio()">Dinosaurio</button>
+            </div>
+
+
+
+          </div>
+      </div> 
+    </div> 
+
+
+
+  <script src="objects/jquery-1.11.2.min.js"></script>
+  <script src="objects/bootstrap.min.js"></script>
+  <script type="text/javascript" src="objects/efect.js"></script>
+  <script type="text/javascript" src="objects/player.js"></script>
+  <script type="text/javascript" src="objects/attack.js"></script>
+  <script type="text/javascript" src="objects/faction.js"></script>
+  <script type="text/javascript" src="objects/settings.js"></script>
+  <script type="text/javascript" src="objects/game.js"></script>
+</body>
+</html>
+
+
+
+
